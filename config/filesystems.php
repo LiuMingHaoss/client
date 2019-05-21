@@ -48,6 +48,10 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'admin' => [
+            'driver' => 'local',
+            'root' => storage_path('app'),
+        ],
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
@@ -63,6 +67,7 @@ return [
             'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
         ],
+
 
     ],
 
